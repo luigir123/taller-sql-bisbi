@@ -26,5 +26,3 @@ GROUP BY r.rango_edad
 ORDER BY r.rango_edad;
 --RESPUESTA:
 --Se obtiene el comportamiento por segmento etario.
-
--- Se obtiene el comportamiento por segmento etario.
