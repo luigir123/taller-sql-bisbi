@@ -1,1 +1,10 @@
-SELECT c.nombre, SUM(v.total_venta) AS total_gastado FROM ventas v JOIN clientes c ON v.id_cliente = c.id_cliente GROUP BY v.id_cliente ORDER BY total_gastado DESC LIMIT 1;
+--EJERCICIO 16
+SELECT c.nombre,
+       SUM(v.total_venta) AS total_gastado
+FROM ventas v
+JOIN clientes c ON v.id_cliente = c.id_cliente
+GROUP BY v.id_cliente
+ORDER BY total_gastado DESC
+LIMIT 1;
+--RESPUESTA:
+--Cliente con mayor gasto: Eligia Robles Iniesta, 65440
