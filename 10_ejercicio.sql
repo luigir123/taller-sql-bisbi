@@ -1,1 +1,7 @@
-SELECT nombre, genero, fecha_nacimiento FROM clientes WHERE genero = 'F' ORDER BY fecha_nacimiento ASC;
+--EJERCICIO 10
+SELECT nombre, genero, fecha_nacimiento
+FROM clientes
+WHERE genero = 'F'
+ORDER BY fecha_nacimiento ASC;
+--RESPUESTA
+--Lista de clientes femeninas ordenadas por edad descendente.
